@@ -1,0 +1,71 @@
+/* sfondo */
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* blocco nero opaco */
+.not{
+  background-color: rgba(0,0,0,0.5);
+
+  border-radius: 8px;
+  padding:  70px 70px 100px;
+  margin:3% 15% 8%;
+  box-sizing: border-box;
+}
+.w{
+  box-sizing: border-box;
+  padding: 70px 70px 100px;
+
+}
+section{
+  background-color: limegreen;
+  text-align:center;
+  padding: 10px;
+}
+#logo{
+  width: 20%;
+  height: auto;
+  padding:5px;
+  margin-left: 40%;
+  margin-right: auto;
+}
+h1{
+  color: limegreen;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  }
+.monopattino{
+  color: white;
+}
+h2{
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 10px 0px 5px;
+}
+p{
+  box-sizing: border-box;
+  padding: 1px;
+  height: 13px;
+  margin: 5px;
+}
+.carica1{
+  background-color: orange;
+  width: 30%;
+  border-radius: 3px;
+  height: 17px;
+}
+.carica2{
+  background-color: green;
+  width: 60%;
+  border-radius: 3px;
+  height: 17px;
+}
+.carica3{
+  background-color: red;
+  width: 15%;
+  border-radius: 3px;
+  height: 17px;
+}
